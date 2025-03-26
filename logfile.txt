@@ -1,0 +1,6 @@
+--2025-03-05 17:42:16--  http://xn--r-zgn/
+Resolving xn--r-zgn (xn--r-zgn)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘xn--r-zgn’
+--2025-03-05 17:42:26--  http://localhost/demo_users
+Resolving localhost (localhost)... 127.0.0.1
+Connecting to localhost (localhost)|127.0.0.1|:80... failed: Connection refused.
