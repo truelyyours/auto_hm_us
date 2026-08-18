@@ -3,6 +3,13 @@ import pandas as pd
 
 BASE_URL = "https://api.alpaca.markets"
 
+# curl --request GET \
+#  --url 'https://data.alpaca.markets/v2/stocks/bars?limit=1000&adjustment=raw&feed=sip&sort=asc' \
+#  --header 'accept: application/json'
+
+DATA_BASE_URL = "https://data.alpaca.markets/v2/stocks/bars"
+DATA_SANDBOX_URL = "https://data.sandbox.alpaca.markets/v2/stocks/bars"
+
 api = tradeapi.REST(API_KEY, API_SECRET, BASE_URL)
 
 def get_tradable_stocks():

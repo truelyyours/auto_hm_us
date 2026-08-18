@@ -1,1 +1,6 @@
 blankly
+pandas
+ta
+numpy
+schedule
+alpaca-trade-api
